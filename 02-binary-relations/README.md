@@ -137,4 +137,27 @@ Let $(A, \le)$ be a poset, and let $S \subseteq A$.
 
 ---
 
+## 7. Reticoli (Lattices)
+
+Un insieme parzialmente ordinato $(L, \le)$ è un **reticolo** se ogni coppia di elementi $\{a, b\} \subseteq L$ ammette sia un estremo inferiore (infimum) che un estremo superiore (supremum).
+
+### 7.1 Operazioni Reticolari
+* **Meet (Estremo Inferiore / $\wedge$):** $a \wedge b = \inf\{a, b\}$
+* **Join (Estremo Superiore / $\vee$):** $a \vee b = \sup\{a, b\}$
+
+### 7.2 Proprietà Fondamentali ($\forall a, b, c \in L$)
+* **Idempotenza:** $a \wedge a = a$, $\quad a \vee a = a$
+* **Commutatività:** $a \wedge b = b \wedge a$, $\quad a \vee b = b \vee a$
+* **Associatività:** $(a \wedge b) \wedge c = a \wedge (b \wedge c)$, $\quad (a \vee b) \vee c = a \vee (b \vee c)$
+* **Assorbimento:** $a \wedge (a \vee b) = a$, $\quad a \vee (a \wedge b) = a$
+
+### 7.3 Reticoli Speciali
+* **Reticolo Limitato:** Possiede elemento minimo $0$ e massimo $1$.
+* **Reticolo Distributivo:** $\wedge$ e $\vee$ si distribuiscono a vicenda:
+  $$a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c)$$
+* **Reticolo Complementato:** Limitato e per ogni $a \in L$ esiste $a'$ tale che $a \wedge a' = 0$ e $a \vee a' = 1$.
+* **Algebra di Boole:** Reticolo distributivo e complementato.
+
+---
+
 [Back to Main README](../README.md)
