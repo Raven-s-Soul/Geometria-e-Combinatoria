@@ -8,11 +8,11 @@ Matrix formulation of linear systems, the Rouché-Capelli compatibility theorem,
 
 1. [Matrix Formulation of Linear Systems](#1-matrix-formulation-of-linear-systems)
 2. [The Rouché-Capelli Theorem](#2-the-rouché-capelli-theorem)
-3. [Homogeneous Linear Systems ($Ax = 0$)](#3-homogeneous-linear-systems-ax--0)
+3. [Homogeneous Linear Systems](#3-homogeneous-linear-systems-ax--0)
 4. [Gaussian Elimination & Row Operations](#4-gaussian-elimination--row-operations)
 5. [Row Echelon Form (REF) & Reduced Form (RREF)](#5-row-echelon-form-ref--reduced-form-rref)
 6. [Back-Substitution & Parametric Solutions](#6-back-substitution--parametric-solutions)
-7. [Cramer's Rule ($n \times n$ Systems)](#7-cramers-rule-n--n-systems)
+7. [Cramer's Rule](#7-cramers-rule)
 
 ---
 
@@ -188,7 +188,8 @@ $$
 
 ---
 
-## 7. Cramer's Rule ($n \times n$ Systems)
+## 7. Cramer's Rule 
+>($n \times n$ Systems)
 
 For a square linear system where the number of equations equals the number of unknowns ($A \in \mathbb{R}^{n \times n}$):
 
