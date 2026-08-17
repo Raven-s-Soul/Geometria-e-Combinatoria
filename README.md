@@ -13,9 +13,9 @@
 * [04. Number Theory & Linear Congruences](./04-integers-and-congruences/) — $\gcd$, Euclidean algorithm, Bézout identity, and Chinese Remainder Theorem.
 * [05. Matrix Algebra & Operations](./05-matrix-algebra/) — Matrix operations, transposition, determinants, and matrix inversion.
 * [06. Linear Systems of Equations](./06-linear-systems/) — Rouché-Capelli theorem, Gaussian elimination, and Cramer's rule.
-* [07. Vector Spaces & Linear Mappings](./07-vector-spaces-and-linear-maps/) — Subspaces, bases, dimension, Grassmann's formula, $\ker$, and $\text{Im}$.
+* [07. Vector Spaces & Linear Mappings](./07-vector-spaces-and-linear-mappings/) — Subspaces, bases, dimension, Grassmann's formula, $\ker$, and $\text{Im}$.
 * [08. Eigenvalues & Diagonalization](./08-eigenvalues-and-diagonalization/) — Characteristic polynomial, eigenspaces, and matrix diagonalizability.
-* [09. Euclidean Spaces & Orthogonality](./09-euclidean-spaces-orthogonality/) — Inner products, norms, Gram-Schmidt process, and orthogonal projections.
+* [09. Euclidean Spaces & Orthogonality](./09-euclidean-spaces-and-orthogonality/) — Inner products, norms, Gram-Schmidt process, and orthogonal projections.
 * [10. Extra Resources & Media](./10-extra-resources/) — Curated video lectures, geometric visualizers, Python tools, and reference sheets.
 
 ---
@@ -67,7 +67,7 @@
 * Gaussian elimination: elementary row operations, pivots, Row Echelon Form (REF), and RREF
 * Back-substitution algorithms and Cramer's Rule for non-singular square systems
 
-### 7. [Vector Spaces & Linear Mappings](./07-vector-spaces-and-linear-maps/)
+### 7. [Vector Spaces & Linear Mappings](./07-vector-spaces-and-linear-mappings/)
 * Axiomatic definition of real vector spaces and vector subspace criteria
 * Linear combinations, linear span $\text{Span}(v_1, \dots, v_k)$, and linear independence
 * Bases of vector spaces, coordinate vectors, and space dimension
@@ -85,7 +85,7 @@
 * Computing arbitrary matrix powers ($A^k = P D^k P^{-1}$)
 * The Spectral Theorem for real symmetric matrices and orthogonal diagonalization ($P^T A P = D$)
 
-### 9. [Euclidean Spaces & Orthogonality](./09-euclidean-spaces-orthogonality/)
+### 9. [Euclidean Spaces & Orthogonality](./09-euclidean-spaces-and-orthogonality/)
 * Real inner products $\langle u, v \rangle$, Euclidean vector spaces, and standard dot products
 * Induced Euclidean norms $\|v\|$, Cauchy-Schwarz inequality, triangle inequality, and angles between vectors
 * Orthogonality, orthogonal sets, and orthogonal complements ($W^\perp$)
@@ -94,10 +94,6 @@
 * Orthogonal matrices ($Q^T Q = I$) and length-preserving isometries
 
 ### 10. [Extra Resources & Media](./10-extra-resources/)
-* **Recommended Video Series:** Curated video lectures (3Blue1Brown's *Essence of Linear Algebra*, MIT 18.06, university lecture playlists)
-* **Interactive Visualization Tools:** 2D/3D transformation sandboxes, eigenspace visualizers, and vector field graphers
-* **Computational Notebooks & Scripts:** Python (NumPy/SymPy) code snippets for RREF reduction, Bézout step verification, and Gram-Schmidt
-* **Cheatsheets & Solved Exercises:** Quick-reference formula sheets and step-by-step exam problems
 
 ---
 
