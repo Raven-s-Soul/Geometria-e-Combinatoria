@@ -7,16 +7,18 @@
 
 ## 🗺️ Course Index & Navigation
 
-* [01. Set Theory, Logic & Mappings](./01-sets-logic-mappings/) — Sets, truth tables, logic connectives, and function properties.
-* [02. Binary Relations: Equivalence & Order](./02-binary-relations/) — Equivalence classes, quotient sets, and partial/total orderings.
-* [03. Combinatorics & Binomial Theorem](./03-combinatorics/) — Permutations, combinations, partitions, and Newton's expansion.
-* [04. Number Theory & Linear Congruences](./04-integers-and-congruences/) — $\gcd$, Euclidean algorithm, Bézout identity, and Chinese Remainder Theorem.
-* [05. Matrix Algebra & Operations](./05-matrix-algebra/) — Matrix operations, transposition, determinants, and matrix inversion.
-* [06. Linear Systems of Equations](./06-linear-systems/) — Rouché-Capelli theorem, Gaussian elimination, and Cramer's rule.
-* [07. Vector Spaces & Linear Mappings](./07-vector-spaces-and-linear-mappings/) — Subspaces, bases, dimension, Grassmann's formula, $\ker$, and $\text{Im}$.
-* [08. Eigenvalues & Diagonalization](./08-eigenvalues-and-diagonalization/) — Characteristic polynomial, eigenspaces, and matrix diagonalizability.
-* [09. Euclidean Spaces & Orthogonality](./09-euclidean-spaces-and-orthogonality/) — Inner products, norms, Gram-Schmidt process, and orthogonal projections.
-* [10. Extra Resources & Media](./10-extra-resources/) — Curated video lectures, geometric visualizers, Python tools, and reference sheets.
+| Module | Core Topics |
+| :--- | :--- |
+| [01. Set Theory & Logic](./01-sets-logic-mappings/) | Sets, truth tables, connectives, and mappings |
+| [02. Binary Relations](./02-binary-relations/) | Equivalence relations, quotient sets, and posets |
+| [03. Combinatorics](./03-combinatorics/) | Permutations, combinations, and Newton's expansion |
+| [04. Number Theory & Congruences](./04-integers-and-congruences/) | $\gcd$, Bézout, linear congruences, and CRT |
+| [05. Matrix Algebra](./05-matrix-algebra/) | Operations, determinants, rank, and inverse |
+| [06. Linear Systems](./06-linear-systems/) | Rouché-Capelli, Gauss reduction, and Cramer |
+| [07. Vector Spaces & Linear Maps](./07-vector-spaces-and-linear-mappings/) | Bases, dimension, Grassmann, $\ker$, and $\text{Im}$ |
+| [08. Eigenvalues & Diagonalization](./08-eigenvalues-and-diagonalization/) | Spectrum, eigenspaces, and diagonalizability |
+| [09. Euclidean Spaces](./09-euclidean-spaces-and-orthogonality/) | Dot products, norms, and Gram-Schmidt |
+| [10. Extra Resources](./10-extra-resources/) | Videos, ... |
 
 ---
 
