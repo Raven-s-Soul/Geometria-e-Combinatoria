@@ -85,6 +85,17 @@ The **dimension** of a finitely generated vector space $V$, denoted by $\dim(V)$
 * If $\dim(V) = n$, any set of $n$ linearly independent vectors forms a basis.
 * Any set of more than $n$ vectors in $V$ is necessarily linearly dependent.
 
+### 3.3 Dimensioni di Spazi Vettoriali Notevoli
+
+| Spazio Vettoriale $V$ | Dimensione $\dim(V)$ | Base Canonica |
+| :--- | :---: | :--- |
+| **Vettori Geometrici del Piano ($V^2$)** | $2$ | $\{\vec{i}, \vec{j}\}$ |
+| **Vettori Geometrici dello Spazio ($V^3$)** | $3$ | $\{\vec{i}, \vec{j}, \vec{k}\}$ |
+| **Coordinate Reali ($\mathbb{R}^n$)** | $n$ | $\{e_1, e_2, \dots, e_n\}$ |
+| **Matrici Rettangolari ($M(p, q, \mathbb{R})$)** | $p \cdot q$ | Matrici elementari $E_{ij}$ (un $1$ e tutti $0$) |
+| **Polinomi di grado $\le n$ ($\mathbb{R}_n[x]$)** | $n + 1$ | $\{1, x, x^2, \dots, x^n\}$ |
+| **Polinomi di qualunque grado ($\mathbb{R}[x]$)** | $\infty$ | Non finitamente generato |
+
 ---
 
 ## 4. Subspace Sums & Grassmann's Formula
@@ -193,6 +204,22 @@ If $P$ is the change of basis matrix from $\mathcal{B}$ to $\mathcal{B}'$ on $V$
 $$
 A' = P^{-1} A P
 $$
+
+---
+
+## 8. Sottospazi Affini (Varietà Lineari)
+
+Un **sottospazio affine** di $V$ è la traslazione di un sottospazio vettoriale $W \le V$ tramite un vettore fissato $v_0 \in V$:
+
+$$
+S = v_0 + W = \{v_0 + w : w \in W\}
+$$
+
+* $W$ è detto **giacitura** (o spazio direttore) del sottospazio affine.
+* **Differenza fondamentale:** 
+  * Un sottospazio vettoriale **deve** contenere il vettore nullo $0_V$.
+  * Un sottospazio affine $S$ è un sottospazio vettoriale se e solo se $v_0 \in W$ (cioè se contiene l'origine $0_V$).
+* Le soluzioni di un sistema lineare non omogeneo $Ax = b$ formano un sottospazio affine $x_p + \ker(A)$.
 
 ---
 
